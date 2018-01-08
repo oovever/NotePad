@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">NotePad</string>
+    <string name="submit_add">Add</string>
+
+    <string name="main_title">Logbook</string>
+    <string name="skydiving">Skydiving</string>
+    <string name="baseJump">B.A.S.E. JUMP</string>
+
+    <string name="no">Jump No</string>
+    <string name="date">Date</string>
+    <string name="location">Location</string>
+    <string name="canopy">Canopy Model Size</string>
+    <string name="aircraft">Aircraft</string>
+    <string name="altitude">Exit Altitude</string>
+    <string name="time">Freefall Time</string>
+    <string name="totalTime">Total Freefall Time</string>
+    <string name="distance">Distance to Target</string>
+    <string name="detail">Detail</string>
+    <string name="note">Note</string>
+
+    <string name="object">Object</string>
+    <string name="container">Container</string>
+    <string name="pilot_chute">Pilot Chute Model Size</string>
+
+    
+    <string name="object_Building">Building</string>
+    <string name="object_Antenna">Antenna</string>
+    <string name="object_Span">Span</string>
+    <string name="object_Earth">Earth</string>
+
+    <string name="success">Success</string>
+    <string name="fail">Fail</string>
+    <string name="empty">Temporarily no data! Click on the top right button to add~</string>
+
+    <string name="change_language">Change Language</string>
+    <string name="add_new_skydiving">Add New Skydiving</string>
+    <string name="add_base_jump">Add New B.A.S.E. Jump</string>
+    <string name="export_all_skydiving">Export all Skydiving</string>
+    <string name="export_all_base_jump">Export all B.A.S.E. Jump</string>
+</resources>

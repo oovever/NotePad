@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_language"
+        android:title="@string/change_language"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_skydiving"
+        android:title="@string/add_new_skydiving"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_base_jump"
+        android:title="@string/add_base_jump"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_output_skydiving"
+        android:title="@string/export_all_skydiving"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_output_base_jump"
+        android:title="@string/export_all_base_jump"
+        app:showAsAction="never" />
+</menu>

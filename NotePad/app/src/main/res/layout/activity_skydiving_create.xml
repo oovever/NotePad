@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/app_bg"
+            android:layout_marginTop="10dip"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dip"
+                android:background="@drawable/bg_press_white"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/Padding_Large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+
+                <EditText
+                    android:id="@+id/create_no"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="right"
+                    android:maxLength="15"
+                    android:inputType="number"
+                    android:digits="1234567890"
+                    android:paddingBottom="@dimen/Padding_Biggest"
+                    android:paddingTop="@dimen/Padding_Biggest"
+                    android:paddingRight="@dimen/Margin_Normal"
+                    android:textColorHint="@color/app_text_gray_light"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/bg_press_white"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/Padding_Large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+
+                <TextView
+                    android:id="@+id/create_date"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="right"
+                    android:paddingBottom="@dimen/Padding_Biggest"
+                    android:paddingTop="@dimen/Padding_Biggest"
+                    android:paddingRight="@dimen/Margin_Normal"
+                    android:textColorHint="@color/app_text_gray_light"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dip"
+                android:background="@drawable/bg_press_white"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/Padding_Large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+
+                <EditText
+                    android:id="@+id/create_location"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="right"
+                    android:maxLength="15"
+                    android:paddingBottom="@dimen/Padding_Biggest"
+                    android:paddingTop="@dimen/Padding_Biggest"
+                    android:paddingRight="@dimen/Margin_Normal"
+                    android:textColorHint="@color/app_text_gray_light"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_press_white"
+                android:layout_marginTop="@dimen/Margin_Normal"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/Padding_Large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/canopy"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+
+                <EditText
+                    android:id="@+id/create_canopy_model"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="right"
+                    android:maxLength="15"
+                    android:paddingBottom="@dimen/Padding_Biggest"
+                    android:paddingTop="@dimen/Padding_Biggest"
+                    android:paddingRight="@dimen/Margin_Normal"
+                    android:textColorHint="@color/app_text_gray_light"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dip"
+                android:background="@drawable/bg_press_white"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/Padding_Large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aircraft"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+
+                <EditText
+                    android:id="@+id/create_aircraft"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="right"
+                    android:paddingBottom="@dimen/Padding_Biggest"
+                    android:paddingTop="@dimen/Padding_Biggest"
+                    android:paddingRight="@dimen/Margin_Normal"
+                    android:maxLength="15"
+                    android:textColorHint="@color/app_text_gray_light"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_press_white"
+                android:layout_marginTop="1dip"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/Padding_Large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/altitude"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+
+                <EditText
+                    android:id="@+id/create_altitude"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="right"
+                    android:paddingBottom="@dimen/Padding_Biggest"
+                    android:paddingTop="@dimen/Padding_Biggest"
+                    android:paddingRight="@dimen/Margin_Normal"
+                    android:maxLength="15"
+                    android:textColorHint="@color/app_text_gray_light"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dip"
+                android:background="@drawable/bg_press_white"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/Padding_Large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/time"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+
+                <EditText
+                    android:id="@+id/create_time"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="right"
+                    android:paddingBottom="@dimen/Padding_Biggest"
+                    android:paddingTop="@dimen/Padding_Biggest"
+                    android:paddingRight="@dimen/Margin_Normal"
+                    android:maxLength="15"
+                    android:inputType="number"
+                    android:textColorHint="@color/app_text_gray_light"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_press_white"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dip"
+                android:paddingLeft="@dimen/Padding_Large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/totalTime"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+
+                <EditText
+                    android:id="@+id/create_total_time"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="right"
+                    android:digits="0123456789"
+                    android:inputType="number"
+                    android:paddingBottom="@dimen/Padding_Biggest"
+                    android:paddingTop="@dimen/Padding_Biggest"
+                    android:paddingRight="@dimen/Margin_Normal"
+                    android:textColorHint="@color/app_text_gray_light"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_press_white"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dip"
+                android:paddingLeft="@dimen/Padding_Large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/distance"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+
+                <TextView
+                    android:id="@+id/create_distance"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="right"
+                    android:paddingBottom="@dimen/Padding_Biggest"
+                    android:paddingTop="@dimen/Padding_Biggest"
+                    android:paddingRight="@dimen/Margin_Normal"
+                    android:textColorHint="@color/app_text_gray_light"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_press_white"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dip"
+                android:paddingLeft="@dimen/Padding_Large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detail"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+
+                <TextView
+                    android:id="@+id/create_detail"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="right"
+                    android:digits="1234567890"
+                    android:inputType="number"
+                    android:paddingBottom="@dimen/Padding_Biggest"
+                    android:paddingTop="@dimen/Padding_Biggest"
+                    android:paddingRight="@dimen/Margin_Normal"
+                    android:textColorHint="@color/app_text_gray_light"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/Margin_Normal"
+                android:background="@drawable/bg_press_white"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/Padding_Large">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/note"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+
+                <EditText
+                    android:id="@+id/create_note"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:gravity="right"
+                    android:paddingBottom="@dimen/Padding_Biggest"
+                    android:paddingTop="@dimen/Padding_Biggest"
+                    android:paddingRight="@dimen/Margin_Normal"
+                    android:textColorHint="@color/app_text_gray_light"
+                    android:textColor="@color/app_text_gray"
+                    android:textSize="@dimen/TextSize_Big"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/create_layout_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/Padding_Biggest"
+        android:text="@string/submit_add"
+        android:textColor="@color/white"
+        android:textSize="@dimen/TextSize_Bigger"
+        android:layout_margin="@dimen/Margin_Normal"
+        android:gravity="center"
+        android:background="@drawable/bg_press_orange"/>
+</LinearLayout>

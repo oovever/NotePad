@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:fitsSystemWindows="false"
+    android:layerType="software"
+    android:minHeight="?attr/actionBarSize"
+    app:navigationIcon="@drawable/ic_back_black"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:theme="@style/ThemeOverlay.AppCompat.ActionBar" >
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/app_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="@dimen/TextSize_Bigger" />
+
+</android.support.v7.widget.Toolbar>

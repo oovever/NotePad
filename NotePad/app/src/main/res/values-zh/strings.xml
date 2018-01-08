@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">NotePad</string>
+
+    <string name="submit_add">添加</string>
+
+    <string name="main_title">跳伞记录</string>
+    <string name="skydiving">高空跳伞</string>
+    <string name="baseJump">低空跳伞</string>
+
+    <string name="no">跳数</string>
+    <string name="date">日期</string>
+    <string name="location">地点</string>
+    <string name="canopy">主伞型号和尺寸</string>
+    <string name="aircraft">飞机</string>
+    <string name="altitude">出舱高度</string>
+    <string name="time">自由落体时间</string>
+    <string name="totalTime">总自由落体时间</string>
+    <string name="distance">降落点距离</string>
+    <string name="detail">跳伞类型</string>
+    <string name="note">备注</string>
+
+    <string name="object">起跳点</string>
+    <string name="container">伞包</string>
+    <string name="pilot_chute">引导伞型号和尺寸</string>
+
+    <string name="object_Building">大楼</string>
+    <string name="object_Antenna">高塔</string>
+    <string name="object_Span">桥梁</string>
+    <string name="object_Earth">悬崖</string>
+
+    <string name="success">操作成功！</string>
+    <string name="fail">操作失败！</string>
+    <string name="empty">暂无数据！赶快点击右上角按钮添加吧~</string>
+
+    <string name="change_language">切换语言</string>
+    <string name="add_new_skydiving">添加高空跳伞</string>
+    <string name="add_base_jump">添加低空跳伞</string>
+    <string name="export_all_skydiving">导出高空跳伞</string>
+    <string name="export_all_base_jump">导出低空跳伞</string>
+</resources>

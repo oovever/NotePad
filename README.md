@@ -1,2 +1,2 @@
 # NotePad
-a simple android notepad
+A Skydiving Android Notepad app
